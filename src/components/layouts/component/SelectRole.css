@@ -1,0 +1,22 @@
+.Select-role-block{
+    width: 32vw;
+    height: 60vh;
+    margin: 0 15px;
+}
+
+.select-role-container{
+    height: 95vh;
+}
+
+@media only screen and (max-width: 600px){
+    .Select-role-block{
+        width: 90%;
+        height: fit-content;
+        margin-bottom: 8px;
+        box-sizing: border-box;
+    }
+
+    .select-role-container{
+        height: fit-content;
+    }
+}
